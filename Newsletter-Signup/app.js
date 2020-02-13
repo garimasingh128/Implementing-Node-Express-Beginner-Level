@@ -31,7 +31,7 @@ app.post("/", function(req, res)
      "Authorization": "garima d62108c77d105e23b1663e9d7f7b60db-us4"
 
    },
-   //body : jsonData,
+   body : jsonData,
  };
  request(option, function(error, response, body)
 {
@@ -57,7 +57,8 @@ app.post("/failure", function(req, res) {
   res.redirect("/");
 });
 
-app.listen(3000, function()
+app.listen(process.env.PORT || 3000, function()
+//dynamic port
 {
   console.log("server running on port 3000");
 });
