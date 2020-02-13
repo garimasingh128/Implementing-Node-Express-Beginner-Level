@@ -1,5 +1,5 @@
-# Implementing-Angular-and-Node
-### This is the repo which consists of all the codes I tried and wrote while learning Node.js and Angular.
+# Implementing-Express-and-Node
+### This is the repo which consists of all the codes I tried and wrote while learning Node.js and Express.
 Fast, unopinionated, minimalist web framework for node.
 
 NPM Version NPM Downloads Linux Build Windows Build Test Coverage
