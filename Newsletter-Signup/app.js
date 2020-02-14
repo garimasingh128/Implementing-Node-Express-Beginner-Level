@@ -25,10 +25,10 @@ app.post("/", function(req, res)
  };
  var jsonData = JSON.stringify(data);
  var option = {
-   url : "https://us4.api.mailchimp.com/3.0/lists/8e46d6aba6",
+   url : "https://us4.api.mailchimp.com/3.0/lists/your_list_id",
    method : "POST",
    headers: {
-     "Authorization": "garima d62108c77d105e23b1663e9d7f7b60db-us4"
+     "Authorization": "garima your_api_key"
 
    },
    body : jsonData,
@@ -62,6 +62,3 @@ app.listen(process.env.PORT || 3000, function()
 {
   console.log("server running on port 3000");
 });
-//d62108c77d105e23b1663e9d7f7b60db-us4 api key
-
-//8e46d6aba6 list id
